@@ -93,8 +93,8 @@ function executePomodoro() {
 }
 
 function startPomodoro() {
-    secondsValue = 11;
-    minutesValue = 0;
+    secondsValue = 0;
+    minutesValue = 25;
 
     currentInterval = setInterval(() => {
         secondsValue -= 1
